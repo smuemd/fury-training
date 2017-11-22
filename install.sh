@@ -1,5 +1,8 @@
 #!/bin/sh
 
+npm install -g express
+npm install socket.io
+npm install async
 npm install -g stromdao-bo-mpo
 npm install -g fury.network
 npm install --save stromdao-businessobject
