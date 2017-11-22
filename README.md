@@ -17,6 +17,10 @@ Choose Template: NodeJS
 Go to *bash* tab and type  
 `/bin/bash ./install.sh `
 
+## Getting Started
+
+Run the `server.js` located in your root folder and point your browser to the displayed URL in console output.
+
 
 ## Pre-Packed tools
  - [stromdao-bo-mpo](https://www.npmjs.com/package/stromdao-bo-mpo)  
@@ -26,6 +30,7 @@ Bash Console: `stromdao`
  - [fury.network cli](https://www.npmjs.com/package/fury.network)  
 Command Line tool required to communicate with ipfs backed fury network UI.   
 Bash Console: `fury.network`    
+
  
 ## Links
  - [Stromkonto](https://www.stromkonto.net)
