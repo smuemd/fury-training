@@ -1,6 +1,12 @@
 # Fury Network - Cloud9 IDE
 This IDE helps developers to familirize themself with the distributed ledger technology and digital infrastructure provided by [STROMDAO](https://stromdao.de/).
 
+
+## Quickstart
+Go to *bash* tab and type  
+`/bin/bash ./install.sh `
+
+
 ## Pre-Packed tools
  - [stromdao-bo-mpo](https://www.npmjs.com/package/stromdao-bo-mpo)  
 Command Line tool required to communicate via energy blockchain.   
