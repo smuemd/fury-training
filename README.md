@@ -11,6 +11,7 @@ Create a new Cloud9 Workspace: https://c9.io/new
 Clone from GIT URL: https://github.com/energychain/EnergyChain-Training  
 Choose Template: NodeJS  
 
+
 ... your Cloud9 IDE will start ...
 
 Go to *bash* tab and type  
