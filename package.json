@@ -1,0 +1,23 @@
+{
+  "name": "energy-blockhain-training",
+  "version": "1.0.0",
+  "description": "Energy Blockchain Training Package",
+  "main": "server.js",
+  "dependencies": {
+    "stromdao-businessobject": "^0.5.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "energy",
+    "blockchain",
+    "training",
+    "stromdao",
+    "fury"
+  ],
+  "author": "StromDAO Ltd. <kontakt@stromdao.de>",
+  "license": "MIT"
+}
