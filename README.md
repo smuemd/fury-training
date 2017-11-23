@@ -2,6 +2,8 @@
 This IDE helps developers to familirize themself with the distributed ledger technology and digital infrastructure provided by [STROMDAO](https://stromdao.de/).
 
 
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/stromdao/Lobby) 
+  
 ## Setup C9
 Create a new Cloud9 Workspace: https://c9.io/new   
 
