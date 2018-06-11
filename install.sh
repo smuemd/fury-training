@@ -1,7 +1,7 @@
 #!/bin/sh
 
-#sudo apt-get install --no-install-recommends yarn
-#yarn --version
+sudo apt-get install --no-install-recommends yarn
+yarn --version
 
 yarn add express > /dev/null
 yarn add socket.io > /dev/null
