@@ -1,12 +1,15 @@
 #!/bin/sh
 
-npm install express >/dev/null
-npm install socket.io >/dev/null
-npm install async >/dev/null
-npm install -g stromdao-bo-mpo >/dev/null
-npm install -g fury.network >/dev/null
-npm install --save stromdao-businessobject >/dev/null
-npm install -g browserify >/dev/null
+#sudo apt-get install --no-install-recommends yarn
+#yarn --version
+
+yarn add express > /dev/null
+yarn add socket.io > /dev/null
+yarn add async > /dev/null
+yarn add stromdao-bo-mpo > /dev/null
+yarn add fury.network > /dev/null
+yarn add stromdao-businessobject > /dev/null
+yarn add browserify > /dev/null
 
 rm -Rf public/
 mkdir public
