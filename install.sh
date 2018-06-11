@@ -11,10 +11,14 @@ yarn add fury.network > /dev/null
 yarn add stromdao-businessobject > /dev/null
 yarn add browserify > /dev/null
 
+yarn add ava --dev
+yarn add snazzy --dev
+yarn add standard --dev
+
 rm -Rf public/
 mkdir public
 cd public
-git clone https://github.com/energychain/fury.network .
+git clone https://github.com/energychain/fury.network
 git clone https://github.com/energychain/fury.mithrill
 git clone https://github.com/energychain/fury.erzeuger
 git clone https://github.com/energychain/fury.mieter

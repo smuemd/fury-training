@@ -3,12 +3,12 @@
 //
 // A simple chat server using Socket.IO, Express, and Async.
 //
-var http = require('http');
-var path = require('path');
+const http = require('http')
+const path = require('path');
 
-var async = require('async');
-var socketio = require('socket.io');
-var express = require('express');
+const async = require('async');
+const socketio = require('socket.io');
+const express = require('express');
 
 //
 // ## SimpleServer `SimpleServer(obj)`
@@ -16,13 +16,13 @@ var express = require('express');
 // Creates a new instance of SimpleServer with the following options:
 //  * `port` - The HTTP port to listen on. If `process.env.PORT` is set, _it overrides this value_.
 //
-var router = express();
-var server = http.createServer(router);
-var io = socketio.listen(server);
+const router = express();
+const server = http.createServer(router);
+const io = socketio.listen(server);
 
 router.use(express.static(path.resolve(__dirname, 'public')));
-var messages = [];
-var sockets = [];
+const messages = [];
+const sockets = [];
 
 io.on('connection', function (socket) {
     messages.forEach(function (data) {
@@ -37,16 +37,16 @@ io.on('connection', function (socket) {
     });
 
     socket.on('message', function (msg) {
-      var text = String(msg || '');
+      let text = String(msg || '')
 
       if (!text)
         return;
 
       socket.get('name', function (err, name) {
-        var data = {
+        let data = {
           name: name,
           text: text
-        };
+        }
 
         broadcast('message', data);
         messages.push(data);
@@ -79,6 +79,6 @@ function broadcast(event, data) {
 }
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
-  var addr = server.address();
+  const addr = server.address();
   console.log("Fury Network is connecting you to Energy Blockchain ", addr.address + ":" + addr.port);
 });

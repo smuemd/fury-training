@@ -1,16 +1,29 @@
 {
-  "name": "energy-blockhain-training",
-  "version": "1.0.0",
+  "name": "fury-training",
   "description": "Energy Blockchain Training Package",
-  "main": "server.js",
+  "version": "1.0.0",
   "dependencies": {
     "stromdao-businessobject": "^0.5.21"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
   },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+    "lint": "standard --verbose | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava"
+  },
+  "ava": {
+    "verbose": "true"
+  },
+  "repository": "",
+  "bugs": "",
+  "homepage": "",
   "keywords": [
     "energy",
     "blockchain",
@@ -18,6 +31,6 @@
     "stromdao",
     "fury"
   ],
-  "author": "StromDAO Ltd. <kontakt@stromdao.de>",
+  "author": "STROMDAO <kontakt@stromdao.de>",
   "license": "MIT"
 }
