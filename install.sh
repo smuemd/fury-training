@@ -1,19 +1,16 @@
 #!/bin/sh
 
-sudo apt-get install --no-install-recommends yarn
-yarn --version
+npm i express -P
+npm i socket.io -P
+npm i async -P
+npm i stromdao-bo-mpo -g
+npm i fury.network -P
+npm i stromdao-businessobject -P
+npm i browserify -P
 
-yarn add express > /dev/null
-yarn add socket.io > /dev/null
-yarn add async > /dev/null
-yarn add stromdao-bo-mpo > /dev/null
-yarn add fury.network > /dev/null
-yarn add stromdao-businessobject > /dev/null
-yarn add browserify > /dev/null
-
-yarn add ava --dev
-yarn add snazzy --dev
-yarn add standard --dev
+npm i ava -D
+npm i snazzy -D
+npm i standard -D
 
 rm -Rf public/
 mkdir public
