@@ -19,8 +19,7 @@ The workspace settings should look like this:
 
 Click `Create workspace` to launch your training environment.
 Your training environment should then look like this:
-
-
+![learning environment](https://raw.githubusercontent.com/smuemd/fury-training/master/c9-workspace.jpg "learning environment workspace")
 
 Go to *bash* tab and type  
 `/bin/bash ./install.sh `
