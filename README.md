@@ -20,21 +20,15 @@ The workspace settings should look like this:
 Click `Create workspace` to launch your training environment.
 Your training environment should then look like this:
 
+
+
 Go to *bash* tab and type  
 `/bin/bash ./install.sh `
 
 ## Run the installation script
 
 Right-click the file `install.sh` then select `Run` from the context menu
-
-*or*
-
-Open a terminal and type
-```bash
-/bin/bash ./install.sh
-```
-
-Your learning environment should now contain the following files and directories:
+After installation your learning environment should  contain the following files and directories:
 
 ```
 ├── 01-blockchain-demo

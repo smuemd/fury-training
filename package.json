@@ -3,7 +3,7 @@
   "description": "Energy Blockchain Training Package",
   "version": "2.2.0",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "ava": "^0.19.1",
