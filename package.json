@@ -3,10 +3,12 @@
   "description": "Energy Blockchain Training Package",
   "version": "2.1.0",
   "dependencies": {
-    "stromdao-businessobject": "^0.5.21"
+    "express": "^4.16.3",
+    "stromdao-businessobject": "^0.5.54"
   },
   "devDependencies": {
     "ava": "^0.19.1",
+    "browserify": "^16.2.2",
     "snazzy": "^7.0.0",
     "standard": "^10.0.2"
   },

@@ -1,22 +1,57 @@
 # Fury Network - Cloud9 IDE
-This IDE helps developers to familirize themself with the distributed ledger technology and digital infrastructure provided by [STROMDAO](https://stromdao.de/).
+This IDE helps developers to get started with Fury Network Energy Blockchain and [STROMDAO](https://stromdao.de/) digital infrastructure.
 
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/stromdao/Lobby) 
   
-## Setup C9
-Create a new Cloud9 Workspace: https://c9.io/new   
+## Setup c9.io
 
-#### Settings
-Clone from GIT URL: https://github.com/energychain/EnergyChain-Training  
-Choose Template: NodeJS  
+1. Log into your c9 account at [https://c9.io/login](https://c9.io/login)
+2. Create a new Cloud9 Workspace at [https://c9.io/new](https://c9.io/new)
+    - Workspace name: `fury-training`
+    - Clone from GIT or Mercurial URL: `https://github.com/smuemd/fury-training.git`  
+    - Choose a Template: `Blank`
+
+The workspace settings should look like this:
+ 
+![alt text](./c9-create-workspace-screen.jpg "Logo Title Text 1")
 
 
-... your Cloud9 IDE will start ...
+Click `Create workspace` to launch your training environment.
+Your training environment should then look like this:
 
 Go to *bash* tab and type  
 `/bin/bash ./install.sh `
 
+## Run the installation script
+
+Right-click the file `install.sh` then select `Run` from the context menu
+
+*or*
+
+Open a terminal and type
+```bash
+/bin/bash ./install.sh
+```
+
+Your learning environment should now contain the following files and directories:
+
+```
+├── .c9
+├── 01-blockchain-demo
+├── 02-public-private-key-demo
+├── 03-fury-material
+├── public
+├── test
+├── c9-create-workspace-screen.jpg
+├── install.sh
+├── LICENSE
+├── package.json
+├── README.md
+├── server.js
+└── yarn.lock
+
+```
 ## Getting Started
 
 Run the `server.js` located in your root folder and point your browser to the displayed URL in console output.

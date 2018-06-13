@@ -15,4 +15,4 @@ indent_size = 2
 indent_style = tab
 
 [{*.md,*.json}]
-max_line_length = null
+max_line_length = 9999

@@ -1,21 +1,34 @@
 #!/bin/sh
 
-npm i express -P
-npm i socket.io -P
-npm i async -P
-npm i stromdao-bo-mpo -g
-npm i fury.network -P
-npm i stromdao-businessobject -P
-npm i browserify -P
+nvm install v8
+nvm alias default 8
+npm i -g npm
 
-npm i ava -D
-npm i snazzy -D
-npm i standard -D
+curl -o- -L https://yarnpkg.com/install.sh | bash
 
-rm -Rf public/
+# npm i -g stromdao-bo-mpo
+
+# load lesson 01
+rm -Rf 01-blockchain-demo/
+mkdir 01-blockchain-demo
+cd 01-blockchain-demo
+git clone https://github.com/anders94/blockchain-demo.git .
+npm install
+cd ..
+
+# load lesson 02
+rm -Rf 02-public-private-key-demo
+mkdir 02-public-private-key-demo
+cd 02-public-private-key-demo
+git clone https://github.com/anders94/public-private-key-demo.git .
+npm install
+cd ..
+
+# load fury.network static files
+rm -Rf public
 mkdir public
 cd public
-git clone https://github.com/energychain/fury.network
+git clone https://github.com/energychain/fury.network .
 git clone https://github.com/energychain/fury.mithrill
 git clone https://github.com/energychain/fury.erzeuger
 git clone https://github.com/energychain/fury.mieter
