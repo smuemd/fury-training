@@ -14,7 +14,7 @@ This IDE helps developers to get started with Fury Network Energy Blockchain and
 
 The workspace settings should look like this:
  
-![alt text](./c9-create-workspace-screen.jpg "Logo Title Text 1")
+![set up screent](https://raw.githubusercontent.com/smuemd/fury-training/master/c9-create-workspace-screen.jpg "Set up screen")
 
 
 Click `Create workspace` to launch your training environment.
@@ -37,10 +37,10 @@ Open a terminal and type
 Your learning environment should now contain the following files and directories:
 
 ```
-├── .c9
 ├── 01-blockchain-demo
 ├── 02-public-private-key-demo
 ├── 03-fury-material
+├── node_modules
 ├── public
 ├── test
 ├── c9-create-workspace-screen.jpg
