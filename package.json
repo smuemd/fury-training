@@ -7,7 +7,6 @@
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "browserify": "^16.2.2",
     "snazzy": "^7.0.0",
     "standard": "^10.0.2"
   },
