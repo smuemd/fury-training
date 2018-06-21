@@ -29,11 +29,14 @@ cd public
 git clone https://github.com/energychain/fury.network .
 
 # load additional resources
-git clone https://github.com/energychain/fury.mithrill
-git clone https://github.com/energychain/fury.erzeuger
-git clone https://github.com/energychain/fury.mieter
-git clone https://github.com/energychain/stromkonto
+git clone https://github.com/energychain/fury.mithrill.git
+git clone https://github.com/energychain/fury.erzeuger.git
+git clone https://github.com/energychain/fury.mieter.git
+git clone https://github.com/energychain/stromkonto.git
 cd ..
+
+git clone https://github.com/energychain/StromDAO-BusinessObject.git
+git clone https://github.com/energychain/BusinessObject-MeterPointOperation.git
 
 # install dependencies
 npm install
