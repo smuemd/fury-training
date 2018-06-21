@@ -1,9 +1,4 @@
 /* global settlement */
-
-
-
-
-
 // TODO settlement_simple.js content:
 
 global.promise = new Promise((res, rej) => {
